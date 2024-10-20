@@ -2,7 +2,7 @@
 prev_stage: 'none'  # choices: none, s_1, s_2
 next_stage: 's_1'  # choices: s_1, s_2, s_3
 resume: false
-resume_path: 'infere_s_1/infere_s_1.tar' ### TODO: Remember to set your pre-trained model path.
+resume_path: 'pretrained/infere_s_1/infere_s_1.tar' ### TODO: Remember to set your pre-trained model path.
 generation_num: 10 #TODO: You can change this number to generate more or less.
 mode: 'inference' # choices: train, inference, infinity_gen
 infer_data_source: 'dataset' # choices: dataset, generation
